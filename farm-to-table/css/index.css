@@ -57,19 +57,22 @@ html{
     text-decoration: none;
 }
 body{
-    color: #4444;
+    color:black;
 
 }
 
 h1{
     font-size: 5rem;
+    
 }
 
 h2{
     font-size: 4rem;
 }
 
-h3{}
+h3{
+    font-size:3.3rem;    
+}
 
 header{
     height: 90vh;
@@ -97,16 +100,35 @@ a{
 
 }
 
-.header-text{}
+.header-text{
+    margin-top: -65rem;
+    padding:20rem;
+    text-align: center;
+    line-height: 1.3;
+
+}
 
 .cow{
     height: 90vh;
     margin-top: 5.8rem;
 }
 
-.farm-products{}
+.farm-products{
+    margin-top:10rem;
+    text-align: center;
+}
 
-.fresh-goods{}
+.fresh-goods{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3rem 0;
+}
+.goods-box{
+    border: 2px solid black;
+    width:13rem;
+    padding:3rem;
+}
 
 .dirt-image{}
 
@@ -114,19 +136,36 @@ a{
     height:30vh;
 }
 
-.our-story{}
+.our-story{
+    border: 2px solid black;
+    width: 55vw;
+    line-height: 1.5;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto;
+    padding:2rem;
+}
 
-p{}
+p{
+    font-size:2rem;
+}
 
-.blog-posts{}
+.blog-posts{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
 
 .img-link{}
 
 .blog-pic{
-    height: 20vh;
+    height: 40vh;
 }
 
-.contact.info{}
+#contact.info{}
 
 footer{
     color: #fcb131;
