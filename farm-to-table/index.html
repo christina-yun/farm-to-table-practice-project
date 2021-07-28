@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Link to google fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <!--Link to CSS stylesheet-->
     <link rel="stylesheet" href="css/index.css">
     <title>Farm to Table</title>
@@ -12,6 +14,82 @@
     <script src="https://kit.fontawesome.com/4d99540586.js" crossorigin="anonymous"></script>
 </head>
 <body>
- <!--Start writing your HTML here-->
+    <header>
+        <nav class ="header-nav">
+            <a class ="navLinks" href = "#" > Home </a>
+            <a class ="navLinks" href = "#" > Farm Fresh </a>
+            <a class ="navLinks" href = "#" > About </a>
+            <a class ="navLinks" href = "#" > Contact </a>
+        </nav>
+        <img class = "cow" src ="images/header.jpg">
+        <div class = 'header-text'>
+            <h1>Farm to Table</h1>
+            <h2>Ethical fresh products delivered to your door</h2>
+        </div>
+    </header>
+
+    <section class ="farm-products">
+        <h2>Farm Fresh</h2>
+        <div class = "fresh-goods">
+           <h3>Dairy</h3> 
+           <h3>Eggs</h3> 
+           <h3>Produce</h3> 
+           <h3>Bakery</h3> 
+        </div>
+    </section>
+
+    <section class ='dirt-image'>
+        <img class = "dirt" src= "images/dirt.jpg">
+    </section>
+    
+    <section class ="our-story">
+        <h2> Our Story</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolorum odio porro, numquam ea repellendus eveniet placeat, harum est iste eos possimus nisi, aliquid nulla neque dolore tempore adipisci minus!
+        </p>
+    </section>
+    
+    <section class = "blog-posts">
+        <div class ="img-link">
+            <img class = "blog-pic" src ="images/barn.jpg">
+            <h3>The Farm</h3>
+        </div>
+
+        <div class ="img-link">
+            <img class = "blog-pic" src = "images/cook.jpg">
+            <h3>Cookery Classes</h3>
+        </div>
+
+        <div class ="img-link">
+            <img class = "blog-pic" src ="images/produce.jpg">
+            <h3>The Produce</h3>
+        </div>
+
+        <div class ="img-link">
+            <img class = "blog-pic" src ="images/sheep.jpg">
+            <h3>The Animals</h3>
+        </div>
+    </section>
+
+    <section class = "contact-info">
+        <h3>Find Us At:</h3>
+        <address>
+            123 Cottonwood Rd.<br>
+            Prince Edward County, Ontario<br>
+            Canada K1X 0H8<br>
+            888-888-8888<br>
+            peter.rabbit@farmtotable.com
+        </address>
+    </section>
+
+    <footer>
+        <h2>Connect With Us On The Socials</h2>
+        <nav class = "footer-nav">
+            <a class ="footer-navLinks" href = "#" > Home </a>
+            <a class ="footer-navLinks" href = "#" > Farm Fresh </a>
+            <a class ="footer-navLinks" href = "#" > About </a>
+            <a class ="footer-navLinks" href = "#" > Contact </a>
+        </nav>
+    </footer>
+
 </body>
 </html>
